@@ -15,6 +15,7 @@ import tempfile
 from subprocess import call
 os.environ['PYOPENGL_PLATFORM'] = 'osmesa' # egl
 import pyrender
+#
 from psbody.mesh import Mesh
 import trimesh
 
